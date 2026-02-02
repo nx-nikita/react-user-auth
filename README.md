@@ -1,16 +1,73 @@
-# React + Vite
+# React User Auth (PopX UI)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **mobile-first user authentication UI built with React and Vite**, featuring:
+- 🎯 Login & Registration pages  
+- 📋 Form validation  
+- 👤 Profile screen  
+- 📱 Responsive design for mobile & desktop  
+- 🚀 Simple React Router navigation
 
-Currently, two official plugins are available:
+This repository demonstrates a complete **frontend authentication flow UI** using React (Vite) — perfect for internships, assignments, or portfolio projects.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🧠 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✅ Mobile-first responsive UI (375px mobile design)  
+✅ Login / Sign-Up (Create Account) pages  
+✅ Form validation:
+- Required fields  
+- Valid email format  
+- Minimum 8-character password  
+- Phone number validation  
+✅ Navigation with React Router  
+✅ Profile UI with user info  
+✅ Fully customizable CSS + Media Queries
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Tech Stack
+
+- **React** (Functional Components & Hooks)  
+- **React Router** for navigation  
+- **Vite** for faster bundling & development  
+- **Plain CSS** with mobile-responsive styles  
+- **No backend** — Frontend-only flow
+
+---
+
+## 📁 Project Structure
+- react-user-auth
+├── public
+├── src
+│ ├── components # Navbar, Buttons, InputFields
+│ ├── pages # Home, Login, Profile
+│ ├── index.css # Global styles + responsive media queries
+│ └── main.jsx
+├── package.json
+├── vite.config.js
+└── README.md
+
+
+---
+
+## 🛠️ How to Run Locally
+
+1. Clone the repository  
+- bash
+- ``git clone https://github.com/nx-nikita/react-user-auth.git``
+
+2- Enter project folder
+- bash
+- ``cd react-user-auth``
+
+3- Install dependencies
+- bash
+- ``npm install``
+
+4- Start dev server
+- bash
+-``npm run dev``
+
+5- Open in browser
+- bash 
+-``http://localhost:5173``
