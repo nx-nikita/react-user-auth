@@ -1,0 +1,90 @@
+/* ===== CREATE ACCOUNT (PopX) ===== */
+
+.register-container {
+  width: 375px;                 /* FIXED WIDTH */
+  min-height: 100vh;            /* FULL HEIGHT */
+  margin: 0 auto;
+  padding: 20px 16px 28px;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* content evenly fit */
+  background-color: #ffffff;
+   border-radius: 10px;
+}
+
+/* Title */
+.register-title {
+  font-size: 24px;              /* slightly smaller for fit */
+  font-weight: 700;
+  margin-bottom: 14px;
+  line-height: 1.3;
+}
+
+/* Input group */
+.register-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;          /* tighter spacing */
+}
+
+.register-field label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #6c2bd9;
+  margin-bottom: 4px;
+}
+
+/* Inputs */
+.register-field input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #dcdcdc;
+  font-size: 13px;
+  width: 100%;
+}
+
+/* Focus */
+.register-field input:focus {
+  outline: none;
+  border-color: #6c2bd9;
+}
+
+/* Radio section */
+.register-radio {
+  margin-top: 6px;
+}
+
+.register-radio p {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.register-radio label {
+  font-size: 13px;
+  margin-right: 16px;
+}
+
+.register-radio input {
+  accent-color: #6c2bd9;
+  margin-right: 6px;
+}
+
+/* Button */
+.register-btn {
+  margin-top: 24px;
+  padding: 14px;
+  background-color: #6c2bd9;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  width: 100%;
+}
+
+
+
+
+

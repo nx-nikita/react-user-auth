@@ -1,0 +1,85 @@
+/* Main container */
+.signin-container {
+  max-width: 360px;
+  margin: 40px auto;
+  padding: 24px 20px 32px;
+  background-color: #fafafa;
+  min-height: 100vh;
+}
+
+/* Title */
+.signin-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1d1d1d;
+  margin-bottom: 8px;
+}
+
+/* Subtitle */
+.signin-subtitle {
+  font-size: 14px;
+  color: #8a8a8a;
+  line-height: 1.5;
+  margin-bottom: 28px;
+}
+
+/* Form group */
+.form-group {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+/* Label */
+.form-group label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #6c2bd9; /* purple */
+  background-color: #fafafa;
+  padding: 0 6px;
+  position: absolute;
+  top: -9px;
+  left: 14px;
+}
+
+/* Input */
+.form-group input {
+  width: 100%;
+  padding: 14px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #dcdcdc;
+  outline: none;
+  background-color: #fafafa;
+}
+
+.form-group input::placeholder {
+  color: #b5b5b5;
+}
+
+.form-group input:focus {
+  border-color: #6c2bd9;
+}
+
+/* Login button */
+.signin-btn {
+  width: 100%;
+  padding: 14px;
+  margin-top: 10px;
+  background-color: #d3d3d3;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Enabled button */
+.signin-btn.active {
+  background-color: #6c2bd9;
+  
+}
+
+
+
+
